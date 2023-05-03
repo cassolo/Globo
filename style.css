@@ -14,7 +14,7 @@ body {
   margin-bottom: 20px;
 }
 
-textarea.log-in-name
+textarea#username
 {
   resize: none;
   border-radius: 15px;
@@ -118,6 +118,23 @@ li {
   font-family: 'Montserrat', sans-serif;
 }
 
+.followed {
+  background-color: rgb(233, 233, 233);
+  color: rgb(3, 121, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px; 
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
 
 
 .shared-info
@@ -151,12 +168,10 @@ img.published-image
   background-color: rgb(233, 233, 233);
   color:rgb(3, 121, 255);
   border: none;
-
   border-radius: 10px;
   width: 100px;
   height: 40px; 
   text-align: center;
-
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -169,7 +184,7 @@ img.published-image
   align-items: center;
 }
 
-textarea.comment-txt {
+textarea#comment-txt {
   resize: none;
   border-radius: 10px;
   text-align:left ;
@@ -203,4 +218,19 @@ textarea.comment-txt {
   margin-right: 20px;
 }
 
+#remove-btn {
+  background-color: rgb(233, 233, 233);
+  color:red;
+  border: none;
+  border-radius: 10px;
+  width: 75x;
+  height: 25px; 
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+  
+}
 
+#username-comment {
+  color: blue;
+}
